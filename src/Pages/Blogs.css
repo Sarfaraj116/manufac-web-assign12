@@ -3,22 +3,17 @@
     padding-right: 30px;
 }
 
-.blogs-Ques {
-    color: red;
+.blogs-Q {
+    color: rgb(23, 122, 214);
 }
 
 span {
-    color: red;
+    color: rgb(23, 228, 23);
 }
 
 .blogs-container {
-    border: 10px solid black;
+    
     margin: 20px;
     border-radius: 10px;
-    background-color: bisque;
-}
-
-.blogs-container:hover {
-    background-color: lemonchiffon;
-    transition-duration: 5s;
+    background-color: whitesmoke;
 }

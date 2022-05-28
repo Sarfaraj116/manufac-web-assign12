@@ -1,34 +1,38 @@
 
-import { FlagIcon } from '@heroicons/react/solid';
 import React from 'react';
 import './BusinessSummary.css'
 const BusinessSummary = () => {
     return (
-        <div >
-            <h2 className='text-3xl text-blue-700 font-bold mb-3 text-center'>Our Business Summary</h2>
-            <div class=" justify-between card lg:card-side bg-red-100 shadow-xl mb-5">
+        <div className='mt-16'>
+            <h2 className='text-3xl text-blue-700 font-bold mb-3 text-center'> Business Summary</h2>
+            <div class=" justify-between card lg:card-side shadow-3xl mb-5">
                 <div class="card-body">
-                    <h2 class="text-center text-2xl font-bold text-red-700">OUR SERVICE IS ONE THE BEST.TRY TO TRUST US.</h2>
-                    <h2 class="text-center text-xl font-bold text-blue-800">PLEASE SEE USER EXPECTATION</h2>
-                    <div className='flex  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
-                        <div>
-                            <FlagIcon className='FlagIcon'></FlagIcon>
-                            <p className='text-3xl text-red-500 font-bold ml-3'>30+</p>
+
+                    <h2 class="text-center text-xl font-bold text-indigo-800"> Customer Review</h2>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
+                        <div class="rating gap-1 bg-red-400 mt-10">
+                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-red-600" />
+                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-600" checked />
+                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-yellow-600" />
+                            <input type="radio" name="rating-3" class="mask mask-star-2 bg-lime-600" />
+                            <div>
+                            <p className='text-3xl text-red-500 font-bold ml-3'>100+</p>
                             <p className='text-3xl text-blue-700 font-bold ml-3'>Countries</p>
+                            </div>
                         </div>
                         <div>
                             <div class="rating gap-1 mt-10">
-                                <input type="radio" name="rating-3" class="mask mask-heart bg-red-600" />
-                                <input type="radio" name="rating-3" class="mask mask-heart bg-orange-600" checked />
-                                <input type="radio" name="rating-3" class="mask mask-heart bg-yellow-600" />
-                                <input type="radio" name="rating-3" class="mask mask-heart bg-lime-600" />
-                                <input type="radio" name="rating-3" class="mask mask-heart bg-red-600" />
+                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-red-600" />
+                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-600" checked />
+                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-yellow-600" />
+                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-lime-600" />
+                                <input type="radio" name="rating-3" class="mask mask-star-2 bg-red-600" />
                             </div>
-                            <p className='text-3xl text-red-500 font-bold ml-3 mt-8'>50+</p>
-                            <p className='text-3xl text-blue-700 font-bold ml-3'>Love Us</p>
+                            <p className='text-3xl text-red-500 font-bold ml-3 mt-8'>120M+</p>
+                            <p className='text-3xl text-blue-700 font-bold ml-3'>120M+ Annual revenue</p>
                         </div>
-                        <div>
-                            <div class="rating rating-lg mt-10">
+                        <div className='bg-orange-500 '>
+                            <div class="rating rating-lg bg-orange-500 mt-10">
                                 <input type="radio" name="rating-9" class="rating-hidden" />
                                 <input type="radio" name="rating-9" class="mask mask-star-2" />
                                 <input type="radio" name="rating-9" class="mask mask-star-2" checked />
@@ -36,8 +40,10 @@ const BusinessSummary = () => {
                                 <input type="radio" name="rating-9" class="mask mask-star-2" />
                                 <input type="radio" name="rating-9" class="mask mask-star-2" />
                             </div>
-                            <p className='text-3xl text-red-500 font-bold ml-3 mt-5'>2+</p>
+                           <div className='bg-orange-500'>
+                           <p className='text-3xl text-red-500 font-bold ml-3 mt-5'>4 star</p>
                             <p className='text-3xl text-blue-700 font-bold ml-3'>Our Reatings</p>
+                           </div>
                         </div>
                         <div>
                             <div class="rating rating-xs">

@@ -8,23 +8,23 @@ const Footer = () => {
         <div className='footer block'>
             <div className='personalIcon'>
                 <div className='flex'><a href=""><LocationMarkerIcon className='Icon'></LocationMarkerIcon></a>
-                    <b>22/6 North Lalbag , Dhaka-1205 , Bangladesh</b><br />
+                    <b>Bagha , Rajshahi, Bangladesh</b><br />
                 </div>
                 <div className='flex'>
-                    <a href=""><PhoneIcon className='Icon'></PhoneIcon></a><b> Helpline:   +8801735776381, +8801571359201</b>
+                    <a href=""><PhoneIcon className='Icon'></PhoneIcon></a><b> Helpline:  01750822264</b>
                 </div>
                 <div className='flex'>
-                    <a href="http://"><MailIcon className='Icon'></MailIcon></a><b> Email : foysalahamedbadsha@gmail.com</b>
+                    <a href="http://"><MailIcon className='Icon'></MailIcon></a><b> Email : sarfarajshaikat116@outlook.com</b>
                 </div>
             </div>
             <div className='flex'>
-                <a href="https://www.facebook.com/foysalahamed.badsha">
+                <a href="https://www.google.com/">
                     <ChatAltIcon className='Icon'></ChatAltIcon></a>
-                <a href="https://i.ibb.co/x5FRY5k/131692351-1365374810482039-8592008014066332892-n.jpg"><PhotographIcon className='Icon'></PhotographIcon></a>
-                <a href="https://youtu.be/rztWlsghmuE"><PlayIcon className='Icon'></PlayIcon></a>
+                
+                <a href="https://www.youtube.com/watch?v=eaB1bXTA23w"><PlayIcon className='Icon'></PlayIcon></a>
             </div>
             <div className='copyright'>
-                <h1>Copyrite <FontAwesomeIcon icon={faCopyright}></FontAwesomeIcon> 2022 MD Badsha's Website</h1>
+                <h1>Copyrite <FontAwesomeIcon icon={faCopyright}></FontAwesomeIcon> 2022 shaikat corporation</h1>
             </div>
         </div>
     );

@@ -5,7 +5,7 @@
 
 .footer {
     align-items: center;
-    background-color: black;
+    background-color: rgb(148, 173, 184);
     color: white;
     padding: 10px;
     margin-top: 20px;
@@ -22,4 +22,5 @@
 
 .copyright {
     justify-content: center;
+    color: black;
 }

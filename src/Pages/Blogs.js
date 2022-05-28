@@ -3,25 +3,25 @@ import './Blogs.css';
 const Blogs = () => {
     return (
         <div className='blogs-container text-center font-bold text-lg'>
-            <h2 className='blogs-Ques'>Ques-1: How will you improve the performance of a React Application ?</h2>
-            <h2 className='blogs-Ans'><span>Ans:</span> Here are some ways that I can use for improving the performance of a React Application:
-                First of all, I would  as much as possible, avoid inline functions.
-                To avoid unnecessary re-renders,I will  keep in mind that immutability is the key.
-                I will always conditionally render hidden components like Modals and Dropdowns.
+            <h2 className='blogs-Q mt-4'>Ques-1: How will you improve the performance of a React Application ?</h2>
+            <h2 className='blogs-Ans'><span>Ans:</span> এখানে কিছু উপায় রয়েছে যা আমি একটি প্রতিক্রিয়া অ্যাপ্লিকেশনের কর্মক্ষমতা উন্নত করতে ব্যবহার করতে পারি:
+                প্রথমত, আমি যতটা সম্ভব ইনলাইন ফাংশন এড়িয়ে চলব।
+                অপ্রয়োজনীয় রি-রেন্ডার এড়াতে, আমি মনে রাখব যে অপরিবর্তনীয়তা হল মূল।
+                আমি সর্বদা শর্তসাপেক্ষে লুকানো উপাদান যেমন মডেল এবং ড্রপডাউন রেন্ডার করব।
 
-                And finally I will always use multiple APIs at once
+                এবং অবশেষে আমি সবসময় একসাথে একাধিক API ব্যবহার করব
             </h2>
-            <h2 className='blogs-Ques'>Ques-2: What are the different ways to manage a state in a React Application ?</h2>
-            <h2 className='blogs-Ans'><span>Ans:</span> The state in React is an observable object that tracks changes to the state and guides the component's behavior. For example, if we alter the state of any component, the webpage will not re-render since React State will not be able to detect the changes. In my React apps, there are four types of state that I must properly manage:Local state,Global state,Server state,URL state.</h2>
-            <h2 className='blogs-Ques'>Ques-3 : Why you do not set the state directly in React .For example,if you have const [products,setProducts]=useState([]) ? Why you do not set products = [...] instead,you set the setProducts.</h2>
-            <h2 className='blogs-Ans'><span>Ans:</span> Objects in JavaScript inherit properties from prototypes, which are other objects. Prototypal inheritance is the concept. JavaScript searches for inherited properties in the object's prototype, as well as the prototype of the prototype, and so on down the chain of prototypes.</h2>
-            <h2 className='blogs-Ques'>Ques-4 : How does prototypical inheritance work ?</h2>
-            <h2 className='blogs-Ans'><span>Ans:</span> Objects in JavaScript inherit properties from prototypes, which are other objects. Prototypal inheritance is the concept. JavaScript searches for inherited properties in the object's prototype, as well as the prototype of the prototype, and so on down the chain of prototypes.</h2>
-            <h2 className='blogs-Ques'>Ques-5 : You have an array of products.Each object has a name,price,description,etc.How will you implement a search to find products by name ? </h2>
-            <h2 className='blogs-Ans'><span>Ans:</span> If i have an array of products and each object has a name,description,price and etc.I will implement distuctering for search to find products by name: Such as: If i want to get name i will use this method products.name,for searching description i will use products.description and for searching price i will use products.price.</h2>
-            <h2 className='blogs-Ques'>Ques-6 : What is a unit test ? Why should write unit tests ? </h2>
-            <h2 className='blogs-Ans'><span>Ans:</span> The method of writing JavaScript test code for a web page or web application module is known as JavaScript unit testing. It's then combined with HTML as an inline event handler and run in the browser to see if all of the features work as expected. The test suite is then created from these unit tests.
-                Before code is deployed, unit testing ensures that it meets quality standards. This ensures a stable engineering environment that prioritizes quality. Unit testing saves time and money during the product development life cycle, and it helps developers write better code faster.
+            <h2 className='blogs-Q mt-7'>Ques-2: What are the different ways to manage a state in a React Application ?</h2>
+            <h2 className='blogs-Ans'><span>Ans:</span> প্রতিক্রিয়ায় রাষ্ট্রটি একটি পর্যবেক্ষণযোগ্য বস্তু যা রাষ্ট্রের পরিবর্তনগুলি ট্র্যাক করে এবং উপাদানটির আচরণকে নির্দেশ করে। উদাহরণস্বরূপ, যদি আমরা কোনো উপাদানের অবস্থা পরিবর্তন করি, তাহলে ওয়েবপৃষ্ঠাটি পুনরায় রেন্ডার হবে না কারণ প্রতিক্রিয়া রাজ্য পরিবর্তনগুলি সনাক্ত করতে সক্ষম হবে না। আমার রিঅ্যাক্ট অ্যাপে, চার ধরনের স্টেট আছে যেগুলো আমাকে সঠিকভাবে পরিচালনা করতে হবে: লোকাল স্টেট, গ্লোবাল স্টেট, সার্ভার স্টেট, ইউআরএল স্টেট.</h2>
+            <h2 className='blogs-Q mt-7'>Ques-3 : Why you do not set the state directly in React .For example,if you have const [products,setProducts]=useState([]) ? Why you do not set products = [...] instead,you set the setProducts.</h2>
+            <h2 className='blogs-Ans'><span>Ans:</span> জাভাস্ক্রিপ্টের অবজেক্টগুলি প্রোটোটাইপ থেকে বৈশিষ্ট্যগুলি উত্তরাধিকারী করে, যা অন্যান্য অবজেক্ট। প্রোটোটাইপাল উত্তরাধিকার ধারণা। জাভাস্ক্রিপ্ট অবজেক্টের প্রোটোটাইপে উত্তরাধিকারসূত্রে প্রাপ্ত বৈশিষ্ট্য, সেইসাথে প্রোটোটাইপের প্রোটোটাইপ এবং প্রোটোটাইপের চেইনের নিচে অনুসন্ধান করে।.</h2>
+            <h2 className='blogs-Q mt-5'>Ques-4 : How does prototypical inheritance work ?</h2>
+            <h2 className='blogs-Ans'><span>Ans:</span> জাভাস্ক্রিপ্টের অবজেক্টগুলি প্রোটোটাইপগুলি থেকে বৈশিষ্ট্যগুলিকে উত্তরাধিকারী করে, যা অন্যান্য অবজেক্ট। প্রোটোটাইপাল উত্তরাধিকার ধারণা। জাভাস্ক্রিপ্ট অবজেক্টের প্রোটোটাইপে উত্তরাধিকারসূত্রে প্রাপ্ত বৈশিষ্ট্য, সেইসাথে প্রোটোটাইপের প্রোটোটাইপ এবং প্রোটোটাইপের চেইনের নিচে অনুসন্ধান করে।.</h2>
+            <h2 className='blogs-Q mt-5'>Ques-5 : You have an array of products.Each object has a name,price,description,etc.How will you implement a search to find products by name ? </h2>
+            <h2 className='blogs-Ans'><span>Ans:</span>যদি আমার কাছে পণ্যের একটি অ্যারে থাকে এবং প্রতিটি বস্তুর একটি নাম, বিবরণ, মূল্য এবং ইত্যাদি থাকে। আমি নাম অনুসারে পণ্যগুলি সন্ধানের জন্য অনুসন্ধানের জন্য ডিস্টক্টরিং প্রয়োগ করব: যেমন: যদি আমি নাম পেতে চাই তবে আমি এই পদ্ধতিটি ব্যবহার করব products.name, বিবরণ অনুসন্ধানের জন্য আমি products.description ব্যবহার করব এবং মূল্য অনুসন্ধানের জন্য আমি products.price ব্যবহার করব.</h2>
+            <h2 className='blogs-Q mt-5'>Ques-6 : What is a unit test ? Why should write unit tests ? </h2>
+            <h2 className='blogs-Ans'><span>Ans:</span> একটি ওয়েব পৃষ্ঠা বা ওয়েব অ্যাপ্লিকেশন মডিউলের জন্য জাভাস্ক্রিপ্ট পরীক্ষার কোড লেখার পদ্ধতি জাভাস্ক্রিপ্ট ইউনিট টেস্টিং নামে পরিচিত। তারপরে এটি একটি ইনলাইন ইভেন্ট হ্যান্ডলার হিসাবে HTML এর সাথে একত্রিত হয় এবং সমস্ত বৈশিষ্ট্য প্রত্যাশিত হিসাবে কাজ করে কিনা তা দেখতে ব্রাউজারে চালানো হয়। পরীক্ষা স্যুট তারপর এই ইউনিট পরীক্ষা থেকে তৈরি করা হয়.
+                কোড স্থাপন করার আগে, ইউনিট পরীক্ষা নিশ্চিত করে যে এটি মানের মান পূরণ করে। এটি একটি স্থিতিশীল প্রকৌশল পরিবেশ নিশ্চিত করে যা গুণমানের অগ্রাধিকার দেয়। ইউনিট টেস্টিং পণ্য বিকাশের জীবনচক্রের সময় সময় এবং অর্থ সাশ্রয় করে এবং এটি বিকাশকারীদের দ্রুততর ভাল কোড লিখতে সহায়তা করে।
             </h2>
         </div>
     );
