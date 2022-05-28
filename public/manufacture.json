@@ -1,0 +1,56 @@
+[
+    {
+        "_id": 1,
+        "name": "Continantal refrigaritor parts",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDIDZ6Q1Mh_xMa0PK0cX7nvcNo_vxXuuEyiQ&usqp=CAU",
+        "description": "It is continantal parts of refrigarator.",
+        "minimumOrderQuantity": 30,
+        "availableOrderQuantity": 120,
+        "perUnitPrice": 1200
+    },
+    {
+        "_id": 2,
+        "name": "Fridge overload",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD1bi0n6ghDzabjxYfJI0UecYxooF2Klz-yA&usqp=CAU",
+        "description": "It is fridge overload parts of refrigarator , it save refrigerator form overloading.",
+        "minimumOrderQuantity": 20,
+        "availableOrderQuantity": 250,
+        "perUnitPrice": 120
+    },
+    {
+        "_id": 3,
+        "name": "Air condition",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC9fs03UGUJHWyG_ZGPy_YfOs6cfXzgZy1Bg&usqp=CAU",
+        "description": "It is air condition parts of refrigarator.It keep cool refregerator.",
+        "minimumOrderQuantity": 10,
+        "availableOrderQuantity": 100,
+        "perUnitPrice": 1500
+    },
+    {
+        "_id": 4,
+        "name": "Comperaser",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmRGF2Vhm3N4y_4XQ8V52rg2tGcJLx0AS8KQ&usqp=CAU",
+        "description": "It is compereser parts of refrigarator.It is one of the main part.",
+        "minimumOrderQuantity": 10,
+        "availableOrderQuantity": 220,
+        "perUnitPrice": 2500
+    },
+    {
+        "_id": 5,
+        "name": "Deforasting",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3aOWLFmnciMY6gVt7kaTsXzGv6p4OhwAvYg&usqp=CAU",
+        "description": "It is deforasting parts of refrigarator.It is very necessary for start refrigerator",
+        "minimumOrderQuantity": 30,
+        "availableOrderQuantity": 300,
+        "perUnitPrice": 170
+    },
+    {
+        "_id": 6,
+        "name": "Buying guide",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSukl5wtyewe3uhjfgu-OBIF3IC0RsQJ_hTYA&usqp=CAU",
+        "description": "It is deforasting parts of refrigarator.It is very necessary for start refrigerator",
+        "minimumOrderQuantity": 10,
+        "availableOrderQuantity": 140,
+        "perUnitPrice": 1600
+    }
+]
