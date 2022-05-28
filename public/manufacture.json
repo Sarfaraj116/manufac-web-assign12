@@ -1,56 +1,56 @@
 [
     {
         "_id": 1,
-        "name": "Continantal refrigaritor parts",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDIDZ6Q1Mh_xMa0PK0cX7nvcNo_vxXuuEyiQ&usqp=CAU",
-        "description": "It is continantal parts of refrigarator.",
+        "name": "Engin",
+        "image": "https://media.istockphoto.com/photos/black-v-shape-vintage-motorcycle-engine-isolated-on-white-background-picture-id1040330288?k=20&m=1040330288&s=612x612&w=0&h=VffRz5MqK4_YU36tYVHGKezz0UzK2apmQ17d6QuvCqw=",
+        "description": "It is most Important",
         "minimumOrderQuantity": 30,
         "availableOrderQuantity": 120,
-        "perUnitPrice": 1200
+        "perUnitPrice": 12000
     },
     {
         "_id": 2,
-        "name": "Fridge overload",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD1bi0n6ghDzabjxYfJI0UecYxooF2Klz-yA&usqp=CAU",
-        "description": "It is fridge overload parts of refrigarator , it save refrigerator form overloading.",
+        "name": "Necessary Parts",
+        "image": "https://img.freepik.com/free-vector/motorcycle-parts-icon-black-set_98292-6433.jpg",
+        "description": "You can buy all the items or single ",
         "minimumOrderQuantity": 20,
         "availableOrderQuantity": 250,
-        "perUnitPrice": 120
+        "perUnitPrice": 1200
     },
     {
         "_id": 3,
-        "name": "Air condition",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC9fs03UGUJHWyG_ZGPy_YfOs6cfXzgZy1Bg&usqp=CAU",
-        "description": "It is air condition parts of refrigarator.It keep cool refregerator.",
+        "name": "Crankshaft",
+        "image": "https://5.imimg.com/data5/SELLER/Default/2020/10/IH/JP/ED/2291777/volvo-scania-engine-parts-500x500.jpg",
+        "description": "It is used in the engin. Without it the engin can not perform.",
         "minimumOrderQuantity": 10,
         "availableOrderQuantity": 100,
         "perUnitPrice": 1500
     },
     {
         "_id": 4,
-        "name": "Comperaser",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmRGF2Vhm3N4y_4XQ8V52rg2tGcJLx0AS8KQ&usqp=CAU",
-        "description": "It is compereser parts of refrigarator.It is one of the main part.",
+        "name": "Brake And Suspension",
+        "image": "https://i.pinimg.com/736x/02/a4/a1/02a4a196156d1999cc7fcea190209bf1.jpg",
+        "description": "Usually every bike brakes pad and suspension have to change after a certain time.",
         "minimumOrderQuantity": 10,
         "availableOrderQuantity": 220,
         "perUnitPrice": 2500
     },
     {
         "_id": 5,
-        "name": "Deforasting",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3aOWLFmnciMY6gVt7kaTsXzGv6p4OhwAvYg&usqp=CAU",
-        "description": "It is deforasting parts of refrigarator.It is very necessary for start refrigerator",
+        "name": "Bike Tyre",
+        "image": "https://d2snyq93qb0udd.cloudfront.net/prod/2331_pirelli_tyre_07_angel_gt_1000x1000.jpg",
+        "description": "After a certain period every bike tyre should be changed. So we have manufactured this usefull thing.",
         "minimumOrderQuantity": 30,
         "availableOrderQuantity": 300,
-        "perUnitPrice": 170
+        "perUnitPrice": 5000
     },
     {
         "_id": 6,
-        "name": "Buying guide",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSukl5wtyewe3uhjfgu-OBIF3IC0RsQJ_hTYA&usqp=CAU",
-        "description": "It is deforasting parts of refrigarator.It is very necessary for start refrigerator",
+        "name": "Headlight",
+        "image": "https://www.yamahapartshouse.com/assets/yamahahouse/images/mindscape_home_page_/yamaha-sport-bike-parts.jpg",
+        "description": "If any accident happened to any bike. Then this parts will need you. This is also expensive.",
         "minimumOrderQuantity": 10,
         "availableOrderQuantity": 140,
-        "perUnitPrice": 1600
+        "perUnitPrice": 16000
     }
 ]

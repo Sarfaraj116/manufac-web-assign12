@@ -21,7 +21,7 @@ const Navbar = () => {
             <li><Link to='/dasboard'>Dashboard</Link></li>
         }
         <li>{user ? <button class="btn btn-active btn-ghost" onClick={logout}>Sign Out</button> : <Link to='/login'>Login</Link>}</li>
-        <li><Link to='/myprotfolio'>My-protfolio</Link></li>
+        <li><Link to='/myprotfolio'>My-Portfolio</Link></li>
     </>
     return (
         <div className="navbar bg-neutral text-white">

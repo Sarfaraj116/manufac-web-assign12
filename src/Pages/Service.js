@@ -2,7 +2,7 @@ import React from 'react';
 const Service = ({ service, setPurces }) => {
     const { name, image, description, minimumOrderQuantity, availableOrderQuantity, perUnitPrice } = service;
     return (
-        <div class="card w-96 bg-orange-400 shadow-xl">
+        <div class="card w-96 shadow-2xl">
             <figure class="px-10 pt-10">
                 <img src={image} alt="Shoes" class="rounded-xl" />
             </figure>
@@ -15,7 +15,7 @@ const Service = ({ service, setPurces }) => {
                 <div class="card-actions">
                     <label for="booking-modal"
                         onClick={() => setPurces(service)}
-                        class="btn modal-button">Purchase</label>
+                        class="btn btn-primary modal-button">Purchase</label>
                 </div>
             </div>
         </div >

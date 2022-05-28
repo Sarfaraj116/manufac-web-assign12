@@ -6,7 +6,7 @@ import image2 from '../../Images/images (1).png'
 const Review = () => {
     return (
         <div>
-            <h2 className='text-center text-red-600 font-bold text-2xl mb-5'>Customer reviews</h2>
+            <h2 className='text-center text-red-600 font-bold text-4xl mt-5 mb-5'>Customer reviews</h2>
             <div className='card bg shadow-2xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mb-10'>
                 <div class="card-body">
                     <h2 class="card-title">Buyers </h2>
