@@ -4,7 +4,7 @@ import ProfileRow from './ProfileRow';
 const MakeAdmin = () => {
     const [users, setUsers, refetch] = useState([]);
     useEffect(() => {
-        fetch('https://afternoon-coast-43110.herokuapp.com/user', {
+        fetch('https://ancient-sea-05145.herokuapp.com/user', {
             method: 'GET',
             headers: {
                 'authorization': `Bearer ${localStorage.getItem('AccessToken')}`
@@ -18,10 +18,7 @@ const MakeAdmin = () => {
                 console.log(data);
             })
     }, [setUsers])
-    //z const { data: users, isLoading } = useQuery('users', () => fetch('/https://afternoon-coast-43110.herokuapp.com/user').then(res => res.json()))
-    // if (isLoading) {
-    //     return <Loading></Loading>
-    // }
+   
     return (
         <div>
             <h2>My Profile:{users.length} </h2>

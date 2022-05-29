@@ -2,6 +2,7 @@ import React from 'react';
 import image from '../../Images/images.jpg3.jpg'
 import image1 from '../../Images/download.jpg'
 import image2 from '../../Images/images (1).png'
+import AddCustomerReview from '../Dasboard/AddCustomerReview';
 
 const Review = () => {
     return (
@@ -36,6 +37,9 @@ const Review = () => {
 
                 
             </div>
+
+            <AddCustomerReview></AddCustomerReview>
+
         </div>
     );
 }

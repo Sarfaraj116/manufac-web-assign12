@@ -11,7 +11,7 @@ const MyOrders = () => {
     const navigate = useNavigate();
     useEffect(() => {
         if (user) {
-            fetch(`https://afternoon-coast-43110.herokuapp.com/booking?customerName=${user.email}`, {
+            fetch(`https://ancient-sea-05145.herokuapp.com/booking?customerName=${user.email}`, {
                 method: 'GET',
                 headers: {
                     'authorization': `Bearer ${localStorage.getItem('AccessToken')}`
@@ -32,23 +32,7 @@ const MyOrders = () => {
                 .then(data => setOrder(data))
         }
     }, [user])
-    // const { email } = useParams;
-    // const handleDelete = email => {
-    //     fetch(`https://afternoon-coast-43110.herokuapp.com/user/${email}}`, {
-    //         method: 'DELETE',
-
-    //     })
-    //         .then(res => res.json())
-    //         .then(data => {
-    //             console.log(data)
-    //             if (data.deletedCount) {
-    //                 toast.success('product is deleted successfully')
-    //             }
-    //             else {
-    //                 toast.error('You can not delete product')
-    //             }
-    //         })
-    // }
+   
     return (
         <div>
             <h2>My Order : {order.length}</h2>
