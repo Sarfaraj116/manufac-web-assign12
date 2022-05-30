@@ -24,7 +24,7 @@ const Footer = () => {
                 <a href="https://www.youtube.com/watch?v=eaB1bXTA23w"><PlayIcon className='Icon'></PlayIcon></a>
             </div>
             <div className='copyright'>
-                <h1>Copyrite <FontAwesomeIcon icon={faCopyright}></FontAwesomeIcon> 2022 shaikat corporation</h1>
+                <h3 className='text-black'>Copyrite <FontAwesomeIcon icon={faCopyright}></FontAwesomeIcon> 2022 shaikat corporation</h3>
             </div>
         </div>
     );

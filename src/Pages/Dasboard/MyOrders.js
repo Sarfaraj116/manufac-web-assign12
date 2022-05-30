@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { useAuthState } from 'react-firebase-hooks/auth';
 import { useNavigate, Link, useParams } from 'react-router-dom';
 import auth from '../../firebase.init';
-import { toast } from 'react-toastify';
+
 
 const MyOrders = () => {
     const [order, setOrder] = useState([]);
@@ -39,7 +39,7 @@ const MyOrders = () => {
             <div class="overflow-x-auto">
                 <table class="table w-full">
                     <thead>
-                        <tr>
+                        <tr className='text-red-500'>
                             <th></th>
                             <th>Customer Name</th>
                             <th>Payment</th>
@@ -53,14 +53,14 @@ const MyOrders = () => {
                                 <tr>
                                     <th>{index + 1}</th>
                                     <td>{a.customerName}</td>
-                                    <td>{(a.price && !a.pay) && <Link to={`/dasboard/payment/${a._id}`}><button class="btn btn-secondary">Pay Now</button></Link>}</td>
+                                    <td>{(a.price && !a.pay) && <Link to={`/dasboard/payment/${a._id}`}><button class="btn btn-primary">Pay Now</button></Link>}</td>
                                     <td>{a.purcesName}</td>
                                     {/* <td>{a.purcesName && <Link to={``}><button
                                         className="btn btn-secondary"
                                     ></button></Link>}</td> */}
                                     <td><button
                                         // onClick={() => handleDelete(email)}
-                                        class="btn btn-secondary">Delete</button></td>
+                                        class="btn btn-accent text-red-600">Delete</button></td>
                                 </tr>)
                         }
                     </tbody>

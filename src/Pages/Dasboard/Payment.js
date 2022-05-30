@@ -5,7 +5,7 @@ const Payment = () => {
     const { id } = useParams();
     return (
         <div>
-            <h2 className="text-2xl text-red-500 font-bold">Please pay for : {id}</h2>
+            <h2 className="text-2xl text-black font-bold flex text-center mt-5">PLEASE PAY FOR: {id}</h2>
         </div>
     );
 };

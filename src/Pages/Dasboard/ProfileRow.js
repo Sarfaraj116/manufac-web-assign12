@@ -12,7 +12,7 @@ const ProfileRow = ({ user, refetch }) => {
         })
             .then(res => {
                 if (res.status === 403) {
-                    toast.error('You can not make an Admin')
+                    toast.error('You have no permission make an Admin')
                 }
                 return res.json()
             })
@@ -28,7 +28,7 @@ const ProfileRow = ({ user, refetch }) => {
         <tr>
             <th>3</th>
             <td>{email}</td>
-            <td>{role !== 'admin' && <button onClick={makeAdmin} class="btn btn-secondary">Make Admin</button>}</td>
+            <td>{role !== 'admin' && <button onClick={makeAdmin} class="btn btn-primary">Make Admin</button>}</td>
             <td><button class="btn btn-secondary">Delete</button></td>
         </tr>
     );
